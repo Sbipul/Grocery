@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 7px 0px;
+}
+ol li{
+    padding: 7px 0px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.my-input {
+    background: #ff000000;
+    border: none;
+    color: white;
+}
+.my-bg {
+    background: #a9a9a9;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+.my-text::first-letter{
+    font-size: 45px;
+    color: #ff9100;
+}
+/* #carouselExampleIndicators {
+    height: 90vh;
+    overflow: hidden;
+} */
+.details {
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.bg-halka-primary{
+    background: darkcyan;
+}
+.card{
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card:hover .card-body{
+    background: black;
+}
+.card:hover .card-title{
+    color: white;
+}
+.card:hover .card-text{
+    color: white;
+}
+.my-clip {
+    clip-path: polygon(100% 30%,100% 100%,30% 100%,0% 70%,0% 0%,70% 0%);
+}
+.details span{
+    color: crimson;
+}
+ .sform {
+    background-image: url("../img/card/map.jpg");
+    background-size: 100% 100%;
+ }
+.bip:hover{
+    background: rgb(221, 221, 221);
+    transition: 0.5s;
+}
+#spans span:hover{
+    color: crimson;
+}

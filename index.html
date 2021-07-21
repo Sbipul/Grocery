@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- animate css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header area  -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-halka-primary shadow p-0">
+            <div class="container d-flex justify-content-between align-items-center position-relative">
+                <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    Menu
+                </a>
+                <a class="navbar-brand fw-bold fs-2 text-primary my-text text-light text-end" href="#">Marry Jane Groceryshop</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--main area -->
+    <main>
+
+      <!-- offcanvas area  -->
+
+
+        <section>
+            <div class="offcanvas offcanvas-start bg-success" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <div class="a" id="navbarSupportedContent">
+                        <form class="d-flex align-items-center justify-content-between my-bg">
+                            <input class="my-input" type="search" placeholder="Search" aria-label="Search">
+                            <i class="fas fa-search text-light"></i>
+                        </form>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fas fa-chart-pie fs-4"></i></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active  position-relative" aria-current="page" href="#"><i
+                                        class="fs-4 fas fa-paper-plane"></i><span
+                                        class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-danger">4</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#"><img height="51" width="51"
+                                        src="img/profile.png" alt=""></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <!-- carousel area  -->
+
+        
+        <section class="container-fluid m-0 p-0">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="height: 650px;" src="img/liuba-bilyk-wU_TbWqdPJI-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="details position-absolute d-flex justify-content-center align-items-center text-center">
+                  <div class="w-75">
+                    <h1 class="text-light fs-1">Welcome everyone.Here we are providing you our best product for.</h1>
+                  <p class="text-light">Best buy with cheap rate in Marry jane's shop ever.All you need is belongs to here, and just find them and deal with us</p>
+                  <button class="btn btn-success">More info</button>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 650px;"  src="img/marisol-benitez-QvkAQTNj4zk-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="details position-absolute d-flex justify-content-center align-items-center text-center">
+                <div class="w-75">
+                  <h1 class="text-light fs-1">Welcome everyone.Here we are providing you our best product for.</h1>
+                <p class="text-light">Best buy with cheap rate in Marry jane's shop ever.All you need is belongs to here, and just find them and deal with us</p>
+                <button class="btn btn-success">More info</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 650px;"  src="img/rithika-gopalakrishnan-T4K9vJ7Mmf4-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="details position-absolute d-flex justify-content-center align-items-center text-center">
+                <div class="w-75">
+                  <h1 class="text-light fs-1">Welcome everyone.Here we are providing you our best product for.</h1>
+                <p class="text-light">Best buy with cheap rate in Marry jane's shop ever.All you need is belongs to here, and just find them and deal with us</p>
+                <button class="btn btn-success">More info</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 650px;"  src="img/sigmund-B2BR05q9acc-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="details position-absolute d-flex justify-content-center align-items-center text-center">
+                <div class="w-75">
+                  <h1 class="text-light fs-1">Welcome everyone.Here we are providing you our best product for.</h1>
+                <p class="text-light">Best buy with cheap rate in Marry jane's shop ever.All you need is belongs to here, and just find them and deal with us</p>
+                <button class="btn btn-success">More info</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        
+        
+        <!-- description area  -->
+
+          <section class="container py-5">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-6 animate__animated animate__flipInX animate__slower">
+                <h1>We are Marry Jane's Familly</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate porro deleniti soluta doloribus. A, corporis vero? Tempore quod vero adipisci culpa aut excepturi animi, voluptas numquam ipsam sed pariatur?</p>
+                <button class="btn btn-success">More</button>
+              </div>
+              
+              <div class="col-md-6 animate__animated animate__fadeIn animate__slower">
+                <img class="img-fluid" src="img/mockup-graphics-KfX5c9TxYPg-unsplash.jpg" alt="">
+              </div>
+            </div>
+          </section>
+
+
+        <!-- card area  -->
+
+        <section class="container py-5">
+          <h1 class="text-center mb-3">Why we are unique and valuable to our custommers</h1>
+          <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores, delectus, quis quidem consectetur consequatur praesentium nostrum cum omnis repudiandae deleniti alias sequi facilis odio dicta saepe eius magnam aperiam?</p>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img style="height: 270px;" src="img/card/brooke-lark-08bOYnH_r_E-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img style="height: 270px;" src="img/card/lucian-alexe-afDu-GuxjjM-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img style="height: 270px;" src="img/card/tirza-van-dijk-dq0x8AvNKv8-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- review area  -->
+
+
+        <section class="container-fluid bg-halka-primary p-3 mt-5">
+          <h1 class="text-light text-center mb-4">Our success</h1>
+          <div class="review-area p-3">
+            <div class="row">
+              <div class="col-12 col-md-8 d-flex align-items-center justify-content-between animate__animated animate__backInLeft animate__slower">
+                
+                <img class="w-50 my-clip" src="img/card/bruce-mars-AndE50aaHn4-unsplash.jpg" alt="">
+                <div class="review w-50 ps-2">
+                  <h1 style="color: #ff9100;">Josim mia</h1>
+                  <p style="color: #ff9100;"><i class="fas fa-quote-left fs-1 text-light me-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto recusandae asperiores laudantium dolores voluptatum repudiandae, sunt eos rerum veritatis, quibusdam ad corrupti odit mollitia minima iure sequi officiis, cupiditate similique.<i class="fas fa-quote-right fs-1 text-light"></i></p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center align-items-center animate__animated animate__backInRight animate__slower">
+                <div class="follower">
+                  <p class="text-light">Over 458K is following us and we are serving worldover 39 countries since 1998.We do our job with very responsibility so that you get more time and save money.</p>
+                <br>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit facere culpa fugit ut, ratione aut repudiandae corporis hic eius consequatur! Eum, quo deleniti. Dolorem vitae voluptatem tenetur tempore suscipit.</p>
+                <br>
+                <p class="text-light">Over 458K is following us and we are serving worldover 39 countries since 1998.We do our job with very responsibility so that you get more time and save money.</p>
+                <br>
+                <h1 class="text-light">1M+ followers</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- details area  -->
+        <section class="details-area">
+          <div class="container text-center mt-5 py-5">
+            <div class="details">
+              <h1 class="mb-4">Marry Jane shops | grocery delivery in Bangladesh</h1>
+              <p>Missing milk? Batteries? Detergent? foodpanda shops delivers all your essential grocery items through the foodpanda app. It's everyday online shopping made easy. Choose anything from daily essentials to grocery to health to pharmaceuticals and even electronics. Head to checkout and our pandamart rider will be at your door in a flash</p>
+              <ul class="text-start ps-5">
+                <li><i class="fas fa-check text-success"></i> over 20,000 items</li>
+                <li><i class="fas fa-check text-success"></i> select your grocery store</li>
+                <li><i class="fas fa-check text-success"></i> everyday affordable items delivered</li>
+                <li><i class="fas fa-check text-success"></i>  25 minute average delivery time</li>
+              </ul>
+              <p>Shop for <br> groceries | <span> snacks</span> | <span>baby supplies</span> | kitchen products | <span>medication</span> | <span>cleaning supplies</span> | bakery items | health & <br> wellness | and a lot more...</p>
+            </div>
+          </div>
+        </section>
+       
+
+       
+        
+       
+        <!-- partner area  -->
+        <section class="container mt-5 pt-5">
+          <h1 class="mb-5 text-center">Our share Partners</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://lh3.googleusercontent.com/proxy/1XsvSPiNAXuEGGNFeIwgxdrU0Guts-rhNmWOJNCCcXUvAijo2RMiN8ZKIIZKZv6_KoVrQXc4tUsz" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://www.textiletoday.com.bd/wp-content/uploads/2018/09/popularity-of-local-brand-yellow.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://ajkeroffer.com/content/uploads/images/logo_5f2ee346e7187.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://www.cnet.com/a/img/N_2AKaW9QFaEPiALqhMarCDx_Sg=/1200x675/2019/08/27/8f91f34c-927f-4056-90b4-25f9d5a9df7d/uber-logo-map-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://www.cnet.com/a/img/N_2AKaW9QFaEPiALqhMarCDx_Sg=/1200x675/2019/08/27/8f91f34c-927f-4056-90b4-25f9d5a9df7d/uber-logo-map-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://ajkeroffer.com/content/uploads/images/logo_5f2ee346e7187.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://www.textiletoday.com.bd/wp-content/uploads/2018/09/popularity-of-local-brand-yellow.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img style="height: 250px;" src="https://lh3.googleusercontent.com/proxy/1XsvSPiNAXuEGGNFeIwgxdrU0Guts-rhNmWOJNCCcXUvAijo2RMiN8ZKIIZKZv6_KoVrQXc4tUsz" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-center justify-content-between">
+                    <h4>Bd food</h4>
+                    <div class="d-flex align-items-center">
+                      <p><i class="fas fa-star"></i>3.8/5(51)</p>
+                    </div>
+                  </div>
+                  <p class="text-secondary">$$$ grocery shop partner with Marry Jane</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="container mt-5 py-5">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1>Complete control in one place</h1>
+              <br>
+              <p>We designed the foodpanda for business portal to fit your business needs. Simplify every process involved, get full visibility on orders and expenses.</p>
+              <ol class="text-start">
+                <li>Set allowance limits based on day, time, location, service</li>
+                <li>Easy employee management, onboarding, and compliance</li>
+                <li>Streamlined monthly or bi-monthly invoicing</li>
+                <li>Pre-orders up to 14 days in advance</li>
+                <li>Dedicated account manager</li>
+              </ol>
+              <button class="btn btn-danger">Create an account</button>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="https://www.scoro.com/wp-content/uploads/2020/09/Dashboard.png" alt="">
+            </div>
+          </div>
+        </section>
+
+        <!-- sign up  -->
+        <section class="sform">
+          <div class="container mt-5 py-5">
+            <h1 class="text-center mb-5">Sign up for Marry Jane Groceryshop for business</h1>
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        
+        <!-- FAQ area  -->
+        <section class="container my-5 py-5">
+          <h1 class="text-center mb-5">Frequently asked questions</h1>
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h2>Got questions? Great, here’s what you need to know before we get started.</h2>
+              <br>
+              <div class="p-3 bip">
+                <h4>Is the platform free to use?</h4>
+                <p>Absolutely. There are no additional charges or hidden fees. Your company is only billed when you order food using credits.</p>
+              </div>
+              <div class="p-3 bip">
+                <h4>Is the platform free to use?</h4>
+                <p>Absolutely. There are no additional charges or hidden fees. Your company is only billed when you order food using credits.</p>
+              </div>
+              <div class="p-3 bip">
+                <h4>Is the platform free to use?</h4>
+                <p>Absolutely. There are no additional charges or hidden fees. Your company is only billed when you order food using credits.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="img/q.jpg" alt="">
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- footer area  -->
+    <footer class="bg-halka-primary">
+      <div class="container">
+        <div class="row py-2 border-top border-bottom">
+          <div class="col-md-6">
+            <h1 class="text-light"><i class="fas fa-shopping-cart me-4"></i>MJ Grocery</h1>
+          </div>
+          <div class="col-md-6 text-end text-light">
+            <i class="fab fa-facebook fs-1"></i>
+            <i class="fab fa-instagram-square fs-1"></i>
+          </div>
+        </div>
+
+        <div class="row py-2 border-bottom align-items-center">
+          <div class="col-md-6">
+            <p class="text-light">developed by <span class="text-danger">bipul chandro roy</span></p>
+          </div>
+          <div class="col-md-6 text-end text-light" id="spans">
+            <p><span>press</span><span>help center</span><span>terms & condition</span><span>privacy & policy</span><span>security</span><span>cash back</span><span>proggramm</span><br><span>partner with us</span><span>career</span><span>download apps</span><span>EID</span><span>grocery delivary</span></p>
+          </div>
+        </div>
+
+          <div class="row gy-5 p-2 border-bottom">
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-3 text-light">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-center text-light">Laos   |   Cambodia   |   Myanmar   |   Thailand   |   Hong Kong   |   Japan   |   Taiwan   |   Malaysia   |   Philippines   |   Singapore   |   Pakistan   |   Bulgaria   |   Romania</p>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/b7ab4b2e5e.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
